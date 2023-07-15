@@ -12,6 +12,6 @@ defmodule RealDealApi.Repo.Migrations.CreateUsers do
       timestamps()
     end
 
-    create index(:users, [:account_id])
+    create index(:users, [:account_id, :full_name])
   end
 end
