@@ -9,5 +9,7 @@ defmodule RealDealApi.Repo.Migrations.CreateAccounts do
 
       timestamps()
     end
+
+    create unique_index(:accounts, [:email])
   end
 end
