@@ -33,7 +33,7 @@ defmodule RealDealApiWeb.Auth.Guardian do
   end
 
   defp validate_password(password, hash_password) do
-    Bcrypt.verify_pass(password, hash_password)
+    Pbkdf2.verify_pass(password, hash_password)
   end
 
   defp create_token(account) do
