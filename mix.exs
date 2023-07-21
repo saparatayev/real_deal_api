@@ -42,7 +42,8 @@ defmodule RealDealApi.MixProject do
       {:jason, "~> 1.2"},
       {:plug_cowboy, "~> 2.5"},
       {:guardian, "~> 2.3"},
-      {:pbkdf2_elixir, "~> 2.1"}
+      {:pbkdf2_elixir, "~> 2.1"},
+      {:guardian_db, "~> 2.1"}
     ]
   end
 
