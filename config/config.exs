@@ -28,7 +28,7 @@ config :logger, :console,
 
 config :real_deal_api, RealDealApiWeb.Auth.Guardian,
   issuer: "real_deal_api",
-  secret_key: "sW+csI6HcDjmHsbdfvi6X/pRWXgf5cpEhQUDXBZNqzhy0iO+i9VqOk4uV/6eoDe6"
+  secret_key: "iX5xmNgrLDdma92PhZxCWHoaEc2F+1ObKvlnsIAT0JPgSLxKNYzRnXtTyJzJTA9U"
 
 # Use Jason for JSON parsing in Phoenix
 config :phoenix, :json_library, Jason
