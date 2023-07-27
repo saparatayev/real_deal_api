@@ -9,7 +9,7 @@ config :real_deal_api, RealDealApi.Repo,
   username: "postgres",
   password: "postgres",
   hostname: "localhost",
-  database: "real_deal_api_test#{System.get_env("MIX_TEST_PARTITION")}",
+  database: "real_deal_api_dev",
   pool: Ecto.Adapters.SQL.Sandbox,
   pool_size: 10
 
