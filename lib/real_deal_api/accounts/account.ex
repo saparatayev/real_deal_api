@@ -7,7 +7,7 @@ defmodule RealDealApi.Accounts.Account do
   @foreign_key_type :binary_id
   schema "accounts" do
     field :email, :string
-    # field :hash_password, :string
+    field :hash_password, :string
     has_one :user, RealDealApi.Users.User
 
     timestamps()
